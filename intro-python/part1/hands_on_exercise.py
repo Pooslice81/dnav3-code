@@ -1,5 +1,7 @@
 """Intro to Python - Part 1 - Hands-On Exercise."""
 
+#  Copyright (c) 2019.
+
 import math
 import random
 
@@ -12,6 +14,8 @@ print('pi is type:', type(pi), 'and is equal to', pi)
 i = random.randint(0, 100)
 if i < 50:
     print('i is less than 50')
+elif i == 50:
+    print('i is equal to 50')
 else:
     print('i is greater than 50')
 
@@ -31,6 +35,7 @@ else:
 
 
 def multiplication(num1, num2):
+    """Multiply two numbers and return the result."""
     result = num1 * num2
     return result
 
